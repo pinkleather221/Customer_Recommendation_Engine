@@ -1,0 +1,17 @@
+[project]
+name = "customer-recommendation-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pinkleather221", email = "nellymogere2002@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+customer-recommendation-engine = "customer_recommendation_engine:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
